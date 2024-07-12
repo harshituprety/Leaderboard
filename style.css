@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.title {
+
+    background-color: url(C1112@3x.png), #00175F;
+    background-attachment: fixed;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title>h1 {
+    font-size: 50px;
+    color: #ffff;
+    font-family: CWC;
+    font-weight: 800;
+}
+
+.title>h1>img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.container>h1 {
+    font-size: 40px;
+    color: #00175F;
+    font-family: CWC;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    height: 1%;
+    border-bottom: 2px solid #F7F7F7;
+    margin-left: 20%;
+    gap: 100px;
+}
+
+.content>h3:nth-child(1) {
+    border-bottom: 4px solid #00175F;
+}
+
+.content>h3 {
+    font-size: 20px;
+    color: #00175F;
+    font-family: CWC;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.content>h3:nth-child(2) {
+    border-bottom: 4px solid #FA0AEA;
+}
+
+.ranking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+table {
+    width: 100%;
+    margin-left: 20%;
+    text-decoration: none;
+    border-collapse: collapse;
+}
+
+th {
+    color: #e5e7eb;
+    width: 240px;
+    height: 45px;
+    font-size: 16px;
+    font-family: CWC;
+    font-weight: 300;
+    border-bottom: 2px solid #FA0AEA;
+    mix-blend-mode: hard-light;
+}
+
+th:nth-child(1) {
+    width: 100px;
+    height: 44px;
+}
+
+td {
+    text-align: center;
+    font-size: 15px;
+    height: 48px;
+    color: #00175F;
+    font-weight: 600;
+    font-family: CWC;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+}
+
+td>img {
+    height: 18px;
+    width: 32px;
+    vertical-align: middle;
+}
+
+/* td:nth-of-type(2) {
+    justify-self: center;
+    align-self: center;
+} */
+
+tr:nth-child(2n-1) {
+    background-color: #e5e7eb;
+}
+
+/* td:nth-of-type(1) {
+    border-right: 1px solid grey;
+    border-right-style: groove;
+} */
